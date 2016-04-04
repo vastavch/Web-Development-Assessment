@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<script src="Colors.js"></script>
+<script src="AddColor.js"></script>
+<title>Insert title here</title>
+</head>
+<body onload="loadOptions()">
+
+<form action="">
+<table>
+
+<tr>
+<td>bandAColor:</td>
+<td><select id="menu"></select></td>
+</tr>
+
+<tr>
+<td>bandBColor:</td>
+<td><select id="menu2"></select></td>
+</tr>
+<tr>
+<td>bandCColor:</td>
+<td><select id="menu3"></select></td>
+</tr>
+<tr>
+<td>bandDColor:</td>
+<td><select id="menu4"></select></td>
+</tr>
+</table>
+</form>
+<input type="button" onclick="getData()" value="Get Resistance" /><br>
+<br>
+Result:
+<div id="result"></div>
+</body>
+</html>
